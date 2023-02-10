@@ -96,6 +96,17 @@ Editor.defaultConfig = {
 			'sourceEditing'
 		]
 	},
+        heading: {
+          options: [
+            { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+            { model: 'heading1', view: 'h1', title: 'M1 (middle black body)', class: 'ck-heading_heading1' },
+            { model: 'heading2', view: 'h2', title: 'S1 (middle bold black body)', class: 'ck-heading_heading2' },
+            { model: 'heading3', view: 'h3', title: 'S2 (small black body)', class: 'ck-heading_heading3' },
+            { model: 'heading4', view: 'h4', title: 'E1 (small bold black)', class: 'ck-heading_heading4' },
+            { model: 'heading5', view: 'h5', title: 'E2 (middle grey)', class: 'ck-heading_heading5' },
+            { model: 'heading6', view: 'h6', title: 'E3 (small grey)', class: 'ck-heading_heading6' }
+          ]
+        },
 	language: 'en',
 	image: {
 		toolbar: [
