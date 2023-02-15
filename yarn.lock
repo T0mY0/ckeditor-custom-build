@@ -196,10 +196,10 @@
     through2 "^3.0.1"
     ts-loader "^9.3.0"
 
-"@ckeditor/ckeditor5-editor-classic@^36.0.1":
+"@ckeditor/ckeditor5-editor-inline@^36.0.1":
   version "36.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-classic/-/ckeditor5-editor-classic-36.0.1.tgz#ae7b5659b9312a2487ef2e92363df8ec73215361"
-  integrity sha512-/euO79HzgIxILgxbqpGaMxO3f2BSGazljAGTc+aGJQ4bs9YnkxpeCc2wxYXuUzMNev2vVqhaPTvRJzg2Bb2r9w==
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-inline/-/ckeditor5-editor-inline-36.0.1.tgz#93878375c5f6e81cf1259579d0183744f3266ff7"
+  integrity sha512-N20Ph2GOQGIPS1mIR0hFz4MpYEjr2H5nR0MZ5Tw/uO15PljsHkiZkQ8fcO6zuTU5ep96lWEMFvZtaqWDj+0nQQ==
   dependencies:
     ckeditor5 "^36.0.1"
     lodash-es "^4.17.15"
