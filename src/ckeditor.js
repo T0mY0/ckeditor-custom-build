@@ -33,6 +33,8 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 
+import MathType from '@wiris/mathtype-ckeditor5';
+
 class Editor extends InlineEditor {}
 
 // Plugins to include in the build.
@@ -65,7 +67,8 @@ Editor.builtinPlugins = [
   Table,
   TableToolbar,
   TextTransformation,
-  Underline
+  Underline,
+  MathType
 ];
 
 // Editor configuration.
@@ -91,6 +94,7 @@ Editor.defaultConfig = {
       'code',
       'imageUpload',
       'specialCharacters',
+      'MathType',
       'insertTable',
       'mediaEmbed',
       'sourceEditing'
